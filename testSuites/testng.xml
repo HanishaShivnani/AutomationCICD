@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+    <listeners>
+        <listener class-name="SeleniumFrameworkDesign.TestComponents.Listeners"></listener>
+    </listeners>
+
+    <test name="Submit Order Test">
+        <classes>
+            <class name="SeleniumFrameworkDesign.tests.SubmitOrderNewApproachTest2"/>
+        </classes>
+    </test>
+
+    <test name="Error Validation Test">
+        <classes>
+            <class name="SeleniumFrameworkDesign.tests.ErrorValidation"/>
+        </classes>
+    </test>
+</suite>
